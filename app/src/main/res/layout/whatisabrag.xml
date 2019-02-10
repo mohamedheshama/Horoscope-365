@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/raduisdialog"
+    android:layout_margin="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ما هي الأبراج ؟"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/ex"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textSize="15dp"
+        android:background="@drawable/x"
+        android:layout_alignParentLeft="true"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/planet1"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_gravity="center"/>
+
+   <android.support.v4.widget.NestedScrollView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/whatisabrag"/>
+   </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/white"
+    android:background="@drawable/raduisdialog">
+    <!--   android:paddingTop="20dp"
+       android:paddingBottom="10dp"
+       android:paddingLeft="40dp"
+       android:paddingRight="40dp"-->
+
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اليوم"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+            <NumberPicker
+            android:id="@+id/dayPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+                android:solidColor="@color/white"
+                android:background="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="الشهر"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+            <NumberPicker
+                android:id="@+id/monthPicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:solidColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="موافق  "
+        android:layout_gravity="center"
+        android:drawablePadding="0dp"
+        android:drawableLeft="@drawable/checked"
+        android:background="@drawable/raduisdialog"
+        android:layout_below="@+id/root"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

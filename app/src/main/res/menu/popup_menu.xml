@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/haml"
+          android:title="برج الحمل"/>
+    <item android:id="@+id/toor"
+        android:title="برج الثور"/>
+    <item android:id="@+id/gwzaa"
+        android:title="برج الجوزاء"/>
+    <item android:id="@+id/srtan"
+        android:title="برج السرطان"/>
+    <item android:id="@+id/asad"
+        android:title="برج الأسد"/>
+    <item android:id="@+id/azraa"
+        android:title="برج العذراء"/>
+    <item android:id="@+id/mezan"
+        android:title="برج الميزان"/>
+    <item android:id="@+id/arab"
+        android:title="برج العقرب"/>
+    <item android:id="@+id/qoos"
+        android:title="برج القوس"/>
+    <item android:id="@+id/gdy"
+        android:title="برج الجدي"/>
+    <item android:id="@+id/dlw"
+        android:title="برج الدلو"/>
+    <item android:id="@+id/hoot"
+        android:title="برج الحوت"/>
+</menu>

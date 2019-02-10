@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/abraj"
+            android:icon="@drawable/hazak"
+            app:actionLayout="@layout/menu_action"
+            android:title="اختبر حظك"/>
+
+        <item
+            android:id="@+id/propties"
+            android:icon="@drawable/prop"
+            app:actionLayout="@layout/menu_action"
+            android:title=" خصائص برجك"/>
+        <item
+            android:id="@+id/twaf2"
+            android:icon="@drawable/twafq"
+            android:title="توافق الأبراج" />
+        <item
+            android:id="@+id/dlalat"
+            android:icon="@drawable/dream"
+            android:title="دلالات الأحلام" />
+     <!--   <item
+            android:id="@+id/m2alat"
+            android:icon="@drawable/mqal"
+            android:title="مقالات عن الأبراج" />
+        -->
+        <item android:id="@+id/whatIsAbrag"
+            android:title="ما هي الأبراج"
+            android:icon="@drawable/conversation"/>
+
+        <!--<item android:title="الاعدادت"
+            android:icon="@drawable/handshake"
+            android:id="@+id/setting"/>-->
+    </group>
+
+
+    <item android:title="Terms of use"
+            android:id="@+id/terms"
+        android:icon="@drawable/termss"/>
+</menu>
